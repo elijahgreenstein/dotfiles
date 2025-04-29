@@ -7,3 +7,6 @@ PS2="%F{cyan}%_>%f "
 # Python prompt
 export PYTHONSTARTUP="$DOTFILES/pythonstartup"
 
+# GHCi prompt
+alias ghcis="ghci -ghci-script $DOTFILES/ghci"
+

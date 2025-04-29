@@ -1,0 +1,4 @@
+:set +m
+:set +t
+:set prompt "\ESC[38;5;89mλ> \ESC[00m"
+:set prompt-cont "\ESC[38;5;89mλ| \ESC[00m"
