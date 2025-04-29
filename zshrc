@@ -10,3 +10,8 @@ export PYTHONSTARTUP="$DOTFILES/pythonstartup"
 # GHCi prompt
 alias ghcis="ghci -ghci-script $DOTFILES/ghci"
 
+
+# Aliases
+
+alias mdhtml="pbpaste | pandoc -f markdown -t html | pbcopy"
+
